@@ -149,14 +149,9 @@ medgraph-challenge/
 Submit a CSV file to `submissions/` folder:
 
 ```csv
-graph_id,label
+id,target
 0,1
 1,0
-2,2
-...
-```
-
-Labels: 0 = Normal, 1 = Benign, 2 = Malignant
 
 ---
 
