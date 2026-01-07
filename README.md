@@ -51,8 +51,8 @@ Build a GNN that can **adaptively handle diverse graph structures** for medical 
 
 ```
 data/
-├── train.csv       # Training graph data
-└── test.csv        # Test graph data (no labels)
+├── data/train.csv       # Training graph data
+└── data/test.csv        # Test graph data (no labels)
 ```
 
 ---
@@ -84,8 +84,8 @@ Macro F1 = (F1_Normal + F1_Benign + F1_Malignant) / 3
 
 ```bash
 # Clone repository
-git clone https://github.com/YOUR_USERNAME/gnn-challenge.git
-cd gnn-challenge
+git clone https://github.com/HodaAnwar/medgraph-challenge.git
+cd medgraph-challenge
 
 # Install dependencies
 pip install -r starter_code/requirements.txt
@@ -100,7 +100,7 @@ python baseline.py
 ## 📁 Repository Structure
 
 ```
-gnn-challenge/
+medgraph-challenge/
 ├── data/
 │   ├── train.csv
 │   └── test.csv
