@@ -1,0 +1,7 @@
+{
+  "last_updated": "2025-02-13T00:00:00Z",
+  "total_submissions": 0,
+  "primary_metric": "macro_f1",
+  "ranking_note": "Ties share ranks (Kaggle-style): if two teams tie for 1st, both get rank 1, next gets rank 3",
+  "entries": []
+}
